@@ -1,4 +1,4 @@
-# Informe del Grupo 99
+Informe del Grupo - Ivan Riaño, Jhaser Pabuena y Cristian Villarreal
 
 1. Pasos realizados:
 - Creamos el repositorio ToDoApp-Group99 en GitHub.
