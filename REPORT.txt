@@ -1,4 +1,4 @@
-Informe del Grupo - Ivan Riaño, Jhaser Pabuena y Cristian Villarreal.
+# Informe del Grupo 99
 
 1. Pasos realizados:
 - Creamos el repositorio ToDoApp-Group99 en GitHub.
@@ -11,7 +11,7 @@ Informe del Grupo - Ivan Riaño, Jhaser Pabuena y Cristian Villarreal.
 - Se hizo un Pull Request desde group-99 hacia main y fue aprobado.
 
 2. Comandos Git:
-- git clone <https://github.com/ivanria170904/ToDoApp-Group99>: Clonar el repositorio.
+- git clone <URL>: Clonar el repositorio.
 - git checkout -b <nombre>: Crear una rama nueva.
 - git add .: Añadir todos los cambios al área de staging.
 - git commit -m "mensaje": Hacer commit con mensaje descriptivo.
@@ -27,7 +27,7 @@ Informe del Grupo - Ivan Riaño, Jhaser Pabuena y Cristian Villarreal.
 
 4. Contribuciones:
 - Ivan Riaño (Estudiante 1): Inicializó el proyecto, creó mark_as_complete(), resolvió conflictos y realizó también el trabajo técnico del estudiante 3.
-- Jhaser Pabuena (Estudiante 2): Implementó delete_task() y actualizó el README.md.
+- Jhaser Pabuena (Estudiante 2): Implementó delete_task() y redactó/actualizó el README.md.
 - Cristian Villarreal (Estudiante 3): No pudo participar directamente en GitHub por falta de computador, pero acompañó todo el proceso de forma presencial y fue responsable de redactar el informe escrito a mano.
 
 5. Reflexiones:
@@ -37,3 +37,21 @@ Informe del Grupo - Ivan Riaño, Jhaser Pabuena y Cristian Villarreal.
 - Git y GitHub facilitaron la integración, revisión y control del proyecto.
 - La comunicación en el grupo fue fundamental, especialmente cuando uno de los integrantes no tenía acceso a un PC.
 - Los Pull Requests fueron útiles para verificar el código antes de integrarlo a la rama principal.
+
+6. Preguntas de reflexión:
+
+- **¿Cómo coordinaron el trabajo en equipo para evitar conflictos innecesarios?**  
+  Nos organizamos dividiendo tareas específicas a cada rama. Además, solo una persona inició el repositorio y los demás actualizaron su código desde la rama `main` para evitar solapamientos.
+
+- **¿Qué aprendieron sobre la resolución de conflictos en Git?**  
+  Que es un proceso manual y cuidadoso que requiere entender los cambios de todos. Resolver conflictos mejora la comprensión del código de otros compañeros.
+
+- **¿Por qué es importante usar Pull Requests en proyectos colaborativos?**  
+  Porque permiten revisar los cambios antes de fusionarlos, comentar, corregir errores y tener un control claro de lo que se integra al código principal.
+
+- **¿Cómo podría mejorarse el flujo de trabajo con herramientas como CI/CD?**  
+  Automatizando pruebas, despliegues y validaciones en cada Push o Pull Request, lo que garantiza que el código que se integra funcione correctamente.
+
+- **Usa git log --oneline --graph --all para describir el historial de commits:**  
+  Ejecutamos el comando y observamos cómo se bifurcaron las ramas de los estudiantes desde `main`, luego fueron unidas en `group-99`, y finalmente se integraron al `main` en un Pull Request. Esto mostró gráficamente todo el flujo de trabajo del proyecto.
+
