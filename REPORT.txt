@@ -1,0 +1,39 @@
+Informe del Grupo - Ivan Riaño, Jhaser Pabuena y Cristian Villarreal.
+
+1. Pasos realizados:
+- Creamos el repositorio ToDoApp-Group99 en GitHub.
+- Ivan Riaño inicializó el proyecto con los archivos base.
+- Cada miembro creó su rama: IvanRiaño, JhaserPabuena, CristianVillarreal.
+- Implementamos funcionalidades y subimos los cambios.
+- Se creó una rama de grupo llamada group-99.
+- Se fusionaron todas las ramas individuales.
+- Se resolvieron conflictos manualmente.
+- Se hizo un Pull Request desde group-99 hacia main y fue aprobado.
+
+2. Comandos Git:
+- git clone <https://github.com/ivanria170904/ToDoApp-Group99>: Clonar el repositorio.
+- git checkout -b <nombre>: Crear una rama nueva.
+- git add .: Añadir todos los cambios al área de staging.
+- git commit -m "mensaje": Hacer commit con mensaje descriptivo.
+- git push origin <rama>: Subir una rama al repositorio.
+- git fetch / git pull: Traer actualizaciones del repositorio remoto.
+- git merge <rama>: Fusionar ramas.
+- git push origin --delete <rama>: Eliminar ramas remotas después de la fusión.
+- git log --oneline --graph --all: Ver el historial de commits y ramas.
+
+3. Conflictos:
+- Se generó un conflicto en task_model.py entre los atributos is_completed e is_done, y entre los métodos mark_as_complete, set_done, delete_task y remove_task.
+- Solución: Se combinaron los métodos, unificando el atributo principal como is_completed, y se conservaron ambos métodos de marcar y eliminar tareas.
+
+4. Contribuciones:
+- Ivan Riaño (Estudiante 1): Inicializó el proyecto, creó mark_as_complete(), resolvió conflictos y realizó también el trabajo técnico del estudiante 3.
+- Jhaser Pabuena (Estudiante 2): Implementó delete_task() y actualizó el README.md.
+- Cristian Villarreal (Estudiante 3): No pudo participar directamente en GitHub por falta de computador, pero acompañó todo el proceso de forma presencial y fue responsable de redactar el informe escrito a mano.
+
+5. Reflexiones:
+- Aprendimos a trabajar en equipo usando Git como herramienta central.
+- Las ramas individuales ayudaron a dividir el trabajo sin generar conflictos desde el inicio.
+- Resolver conflictos de código fue una experiencia valiosa para entender la colaboración real.
+- Git y GitHub facilitaron la integración, revisión y control del proyecto.
+- La comunicación en el grupo fue fundamental, especialmente cuando uno de los integrantes no tenía acceso a un PC.
+- Los Pull Requests fueron útiles para verificar el código antes de integrarlo a la rama principal.
